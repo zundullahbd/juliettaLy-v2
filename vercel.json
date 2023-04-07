@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "julietta-ly-v2/wsgi.py",
+      "src": "vercel_app/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
@@ -21,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "julietta-ly-v2/wsgi.py"
+      "dest": "vercel_app/wsgi.py"
     }
   ]
 }
