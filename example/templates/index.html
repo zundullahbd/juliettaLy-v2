@@ -3,19 +3,29 @@
   <head>
     <title>Hi, Babygirl</title>
     {% load static %}
-    <link rel="stylesheet" href="/staticfiles_build/static/styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css" integrity="sha512-tFm6quzrVUjv6Bh7VU1Z6Q0PWohq3q3NlxdT+bwyeN8Rl0s/izGCAf9skl0CrvgRfoDxukG89MgA7fSlwMUrIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="staticfiles_build/static/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="staticfiles_build/static/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="staticfiles_build/static/icon/favicon-16x16.png">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff" href="staticfiles_build/static/icon/favicon.ico">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="message">
-      <p>Hello, it's me</p>
-      <p>I was wondering if after all these years you'd like to meet</p>
-      <p>To go over everything</p>
+    <div class="heart absolute top-1/4 left-1/4">❤️</div>
+    <div class="butterfly absolute top-1/4 right-1/4">🦋</div>
+  <!-- Center the content -->
+    <div class="container">
+    <!-- Add the poem -->
+    <div class="poem">
+      <p>Roses are red,</p>
+      <p>Violets are blue,</p>
+      <p>Sugar is sweet,</p>
+      <p>And so are you.</p>
     </div>
-  </body>
+  </div>
+</body>
 </html>
