@@ -3,6 +3,10 @@ body {
   background-color: #fce4ec;
 }
 
+@font-face {
+  font-family: "cute-font";
+  src: url(Pacifico-Regular.ttf);
+}
 /* Add some cute decorations */
 .heart {
   font-size: 2rem;
@@ -31,4 +35,5 @@ body {
   text-align: center;
   font-size: 1.5rem;
   line-height: 2rem;
+  font-family: "cute-font";
 }
